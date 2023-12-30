@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script>   
+		function popup() {   
+			var con = confirm ("Applied Successfully");   
+			if(con == true) {   
+				window.open("file:///D:/WTminiproject/homepage.html");   
+			}    
+			
+		}   
+	</script>   
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Application Form
+	</title>
+
+	<style>
+
+	
+		body {
+			background-color: #d9a5a8;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		
+		form {
+			background-color: rgb(235, 123, 147);
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(33, 5, 21, 0.79);
+		}
+
+		
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid rgb(150, 33, 213);
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		
+		button {
+			background-color: #934ae2;
+			border: 1px solid rgb(196, 136, 227);
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>PinSTAR Company Job Application Form</h1>
+
+	
+	<form id="form">
+
+		
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+
+			
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" />
+		</div>
+
+		<div class="form-control">
+			<label for="mob" id="label-mob">
+				Moblie number
+			</label>
+
+		
+			<input type="tel"
+				id="mob"
+				placeholder="Enter your moblie no." />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+			
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" />
+		</div>
+
+		<div class="form-control">
+			<label>
+				Gender
+			</label>
+
+			
+			<label for="male">
+				<input type="radio"
+					id="male"
+					name="gender">Male</input>
+			</label>
+			<label for="female">
+				<input type="radio"
+					id="female"
+					name="gender">Female</input>
+			</label>
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="label-age">
+				Age
+			</label>
+
+			
+			<input type="text"
+				id="age"
+				placeholder="Enter your age" />
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+			What Post you want to apply for?
+			</label>
+			
+			
+			<select name="role" id="role">
+				<option value="m">MANAGER</option>
+				<option value="pt">PRODUCTION TEAM</option>
+				<option value="fm">FINNANCE MANAGER</option>
+				<option value="mt">MARKETING TEAM</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+			What is your current employment status?
+			</label>
+			
+			
+			<select name="role" id="role">
+				<option value="student">Student</option>
+				<option value="intern">Intern</option>
+				<option value="employee">Employee</option>
+				<option value="employee">Un-Employee</option>
+				<option value="employee">Self-Employee</option>
+				<option value="professional">
+					Professional
+				</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+
+		
+		<div class="form-control">
+			<label>
+				<small>How did you hear about PinSTAR</small>
+			</label>
+			
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">Social Media</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">Company Website</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">Event</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">LinkedIn</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Friends / Family</input></label>
+	
+		</div>
+	
+       <div class="form-control">
+	       
+			<label for="file" id="label-file">
+				Upload your Resume here<br>
+			</label>
+		   
+		   <input type="file" id="myFile" name="filename">
+		   
+	   </input>
+       </div>
+
+        <div class="form-control">
+			<label for="comment">
+				Cover Letter
+			</label>
+
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		
+		<center>   
+			
+			<input type="button" value="APPLY" onclick="popup();" />   
+		</center>   
+	
+		
+	
+	</form>
+</body>
+
+</html>
