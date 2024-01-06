@@ -1,4 +1,4 @@
-# Basic-Website
+# PinSTAR-Careers
 A basic website using html , css and javascript 
 
 ---
