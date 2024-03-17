@@ -23,6 +23,8 @@ I HAVE USED HTML CSS AND JAVASCRIPT IN MAKING THE WEBSITE.
 
 • APPLICATION FORM PAGE
 
+![PinStar](https://github.com/vaidehi1406/PinSTAR-Careers/blob/ae9d5a2f84f197fa85d005b86fd1bf20c1825fcf/PinStar.png)
+
 • ABOUT
 
 • CONTACT
